@@ -11,6 +11,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .info{
@@ -20,13 +21,10 @@ img {
   justify-content: center;
 }
 
-.plant1,
-.plant2,
-.plant3,
-.plant4{
+.plants{
   display: flex;
   flex-direction: column;
-  width: 200px;
+  max-width: 200px;
   align-items: center;
 }
 
